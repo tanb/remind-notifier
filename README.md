@@ -36,6 +36,3 @@ $ remind-notifier [-d delay] [-l listname] title message
 -l listname
    Default is Notifications. Enter a specific reminder list name. If the reminder list is not found, it cause an error and exit.
 ```
-
-## License
-reminder-notifier is available under the MIT license.
