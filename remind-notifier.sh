@@ -1,5 +1,5 @@
 #! /bin/bash
-usage_exit() {
+usage() {
     echo -e "
 Usage: remind-notifier [-d delay] [-l listname] title message
 
@@ -12,11 +12,11 @@ The options are as follows:
 \t-l listname
 \t\tDefault is Notifications. Enter a specific reminder list name. If the reminder list is not found, it cause an error and exit.
 "
-    exit 1
 }
 
 if [ $# -lt 1 ];then
-    usage_exit
+    usage
+    exit 1
 fi
 
 while getopts d:l:h OPT
@@ -24,15 +24,18 @@ do
     case $OPT in
         d) DELAY=$OPTARG;;
         l) LISTNAME=$OPTARG;;
-        h) usage_exit;;
-        \?) usage_exit;;
+        h) usage
+           exit 0;;
+        \?) usage
+            exit 1;;
     esac
 done
 shift $((OPTIND - 1))
 
 if [[ -n $DELAY ]]; then
     if [[ ! $DELAY =~ ^-?[0-9]+$ ]]; then
-        usage_exit        
+        usage
+        exit 1
     fi
 else
     DELAY=1
