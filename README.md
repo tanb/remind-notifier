@@ -4,9 +4,9 @@ remind-notifier
 Send a notificaiton via OSX Reminders.app
 
 ```
-$ remind-notifier "Hey" "Operation foo has finished"
+$ remind-notifier "Wheeee" "Long time processing has been completed"
 ```
-![foo-has-finished](https://cloud.githubusercontent.com/assets/291175/4974543/20f4587e-6910-11e4-86c1-f6e0b8c8a690.png)
+![sample](https://cloud.githubusercontent.com/assets/291175/4975067/098a731a-6917-11e4-93ea-d053d433c555.png)
 
 ## Requisites
 OSX 10.10 =<
