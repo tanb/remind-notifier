@@ -1,7 +1,7 @@
 remind-notifier
 ==============
 
-Send a notificaiton via OSX Reminder.app
+Send a notificaiton via OSX Reminders.app
 
 ```
 $ remind-notifier "Hey" "Operation foo has finished"
