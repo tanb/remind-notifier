@@ -38,4 +38,4 @@ $ remind-notifier [-d delay] [-l listname] title message
 ```
 
 ## License
-reminder-notifer is available under the MIT license.
+reminder-notifier is available under the MIT license.
