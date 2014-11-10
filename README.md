@@ -1,7 +1,7 @@
 remind-notifier
 ==============
 
-Send a notificaiton via OSX Reminders.app
+Send a notificaiton via OSX Reminders.app. If you use Reminders.app with iCloud account, you can get the notification with iPhone! :computer: ≡≡≡:sushi: :iphone:
 
 ```
 $ remind-notifier "Wheeee" "Long time processing has been completed"
