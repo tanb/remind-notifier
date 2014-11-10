@@ -11,6 +11,18 @@ $ remind-notifier "Hey" "Operation foo has finished"
 ## Requisites
 OSX 10.10 =<
 
+## Installation
+### Installing with Homebrew
+```
+$ brew tap tanb/tail
+$ brew install remind-notifier
+```
+### Installing with Make
+```
+$ make
+$ ./remind-notifier -h
+```
+
 ## Usage
 ```
 $ remind-notifier [-d delay] [-l listname] title message
