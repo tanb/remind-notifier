@@ -9,7 +9,7 @@ $ remind-notifier "Wheeee" "Long time processing has been completed"
 ![sample](https://cloud.githubusercontent.com/assets/291175/4975067/098a731a-6917-11e4-93ea-d053d433c555.png)
 
 ## Requisites
-OSX 10.10 =<
+OS X 10.10 or later
 
 ## Installation
 ### Installing with Homebrew
